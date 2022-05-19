@@ -1,8 +1,4 @@
-def maximum(
-    a,
-    b,
-    c,
-):
+def maximum(a, b, c):
     if (a > b) and (a > c):
         max = a
     elif (b > a) and (b > c):
@@ -10,12 +6,3 @@ def maximum(
     elif (c > a) and (c > b):
         max = c
     return max
-
-
-print(
-    maximum(
-        10,
-        80,
-        3,
-    )
-)
