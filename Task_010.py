@@ -3,11 +3,11 @@ string_2 = input("word 2:")
 
 
 def find_common_characters(string_1, string_2):
-    set1 = set(string_1)
-    set2 = set(string_2)
-    set3 = set1 & set2
-    string_final = ",".join(set3)
-    print("Common letters:", string_final)
+    result = ""
+    for letter in string_1:
+        if letter in string_2:
+            result += letter
+    return ", ".join(result)
 
 
-find_common_characters(string_1, string_2)
+print("Common letters:", find_common_characters(string_1, string_2))
