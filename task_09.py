@@ -7,4 +7,5 @@ def vowel(word):
             result += letter
     return ", ".join(result)
 
+
 print("Vowels:", vowel("Umuzi"))
