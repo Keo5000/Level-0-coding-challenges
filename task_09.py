@@ -8,4 +8,4 @@ def vowel(word):
     return ", ".join(result)
 
 
-print("Vowels:", vowel(input()))
+print("Vowels:", vowel("Umuzi"))
