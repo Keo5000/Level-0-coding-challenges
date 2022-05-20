@@ -1,13 +1,9 @@
-celsius = int(input())
-fahrenheit = int(input())
-
-
 def celsius_to_fahrenheit(celsius):
     temp_in_fahrenheit = (celsius * 9 / 5) + 32
     return temp_in_fahrenheit
 
 
-print(celsius_to_fahrenheit(celsius))
+print(celsius_to_fahrenheit(100))
 
 
 def fahrenheit_to_celsius(fahrenheit):
@@ -15,4 +11,4 @@ def fahrenheit_to_celsius(fahrenheit):
     return temp_in_celsius
 
 
-print(fahrenheit_to_celsius(fahrenheit))
+print(fahrenheit_to_celsius(70))
