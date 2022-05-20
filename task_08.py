@@ -11,9 +11,9 @@ def convert_num_to_hours_and_minutes(num):
     elif (hour > 1) and (minutes == 0):
         print(hour, "hours" ",", minutes, "minutes")
     elif (hour == 0) and (minutes > 1):
-        print(hour, "hours" ",", minutes, "minutes")  # grammatically we say 0 hours
+        print(hour, "hours" ",", minutes, "minutes") 
     elif (hour == 0) and (minutes == 0):
-        print(hour, "hours" ",", minutes, "minutes")  # grammmatically we say 0 minutes
+        print(hour, "hours" ",", minutes, "minutes")  
     elif (hour == 0) and (minutes == 1):
         print(hour, "hours" ",", minutes, "minute")
     elif (hour <= 1) and (minutes > 1):
