@@ -1,4 +1,4 @@
-num = int(input("Enter number:"))
+num = int(input())
 
 
 def even_or_odd(num):
