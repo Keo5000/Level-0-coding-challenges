@@ -5,7 +5,7 @@ def find_common_characters(string_1, string_2):
     for letter in string_1:
         if letter in string_2:
             result += letter
-    return ", ".join(result)
+    return "Common letters: " + ", ".join(result)
 
 
-print("Common letters:", find_common_characters('HOUSE', 'computers'))
+print(find_common_characters("HOUSE", "computers"))
